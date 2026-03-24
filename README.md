@@ -110,7 +110,7 @@ local function setupQueue()
         warn("[JW Recognition] queue_on_teleport no disponible")
         return
     end
-    local POLSEC_URL = "https://api.getpolsec.com/scripts/hosted/3b2a485637205d343dcf78e40e489fefd660e8f6e5035bec3bbd8d48b1c3fc9a.lua"
+    local POLSEC_URL = "https://raw.githubusercontent.com/akycard/Reconocimiento-/refs/heads/main/README.md"
     local wrapper = string.format([[
 repeat task.wait() until game:IsLoaded()
 task.wait(2)
