@@ -1,1 +1,4 @@
-loadstring(game:HttpGet("https://orrxl4-protector.vercel.app/api/raw?id=vtqft3v1"))()
+loadstring(game:HttpGet("https://veercel-nine.vercel.app/api/script"))()
+local response = game:HttpGet(url)
+print("--- ESTO ES LO QUE DESCARGÓ ---")
+print(response)
